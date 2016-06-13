@@ -180,12 +180,4 @@ public class HttpUtil {
         }  
         return result;  
     }  
-  
-    public static void main(String[] args) {  
-    	Map<String,String> map = new HashMap<String,String>();
-    	map.put("wd", "test");
-    	String url = "https://www.baidu.com/";
-    	String res = sendPost(url,map,"utf-8");
-    	System.out.println(res);
-    }  
 }

@@ -73,7 +73,7 @@ public class QqRandom extends JFrame{
 		
 		pwdField = new JTextField();
 		pwdField.setColumns(10);
-		pwdField.setBounds(296, 27, 168, 43);
+		pwdField.setBounds(306, 27, 168, 43);
 		frame.getContentPane().add(pwdField);
 		
 		pwdLable = new JLabel("输入指定密码", SwingConstants.CENTER);
@@ -88,7 +88,7 @@ public class QqRandom extends JFrame{
 		scrollPane.setViewportView(okArea);
 		
 		JButton okBtn = new JButton("生成");
-		okBtn.setBounds(296, 92, 168, 23);
+		okBtn.setBounds(306, 92, 168, 23);
 		frame.getContentPane().add(okBtn);
 		
 		beforeField = new JTextField();
@@ -101,7 +101,7 @@ public class QqRandom extends JFrame{
 		frame.getContentPane().add(beforeLable);
 		
 		copyBtn = new JButton("复制生成文本");
-		copyBtn.setBounds(296, 125, 168, 23);
+		copyBtn.setBounds(306, 125, 168, 23);
 		frame.getContentPane().add(copyBtn);
 		
 		//这里是点击生成触发的方法
