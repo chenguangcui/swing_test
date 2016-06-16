@@ -69,7 +69,7 @@ public class Test {
 			}
 		});
 		timer.start();
-		
+		//test
 		
 	}
 	private void refresh(JTextArea textArea){
